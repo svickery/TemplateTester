@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
+    color: rgb(58, 56, 56);
+    background-color: #eae7dc;
+}
+
+/****************************** Headings **********************************/
+
+.service-heading,
+.review-heading,
+.contact-heading {
+    font-family: "Dosis", sans-serif;
+    font-weight: 300;
+}
+
+.site-title {
+    padding: 20px;
+    color: black;
+    font-family: "Dosis", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+}
+
+.intro-row {
+    padding-top: 50px;
+}
+
+.nav-link {
+    font-size: 15px;
+}
+.navbar {
+    background-color: #eae7dc;
+}
+
+/************************************ Navbar ****************************************/
+
+.contact-para {
+    color: #fff;
+    font-family: "Dosis", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.fas,
+.far {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px;
+}
+
+nav li a {
+    color: darkgray;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/**************************** Sections ***********************************/
+
+section {
+    margin-bottom: 40px;
+    padding-top: 100px;
+}
+
+/************************************* Parallax ***************************************/
+
+.parallax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}  
+
+.parallax-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+}
+
+.parallax1 {
+    background-image: url(../img/bristoltwo.jpg);
+    height: 100%;
+}
+
+.parallax2 {
+    background-image: url(../img/bristoltwelve.jpg);
+    height: 50%;
+}
+
+.parallax3 {
+    background-image: url(../img/bristolthirteen.jpg);
+    height: 50%;
+}
+
+.parallax4  {
+    background-image: url(../img/bristoleight.jpg);
+    height: 50%;
+}
+
+.parallax5  {
+    background-image: url(../img/bristolten.jpg);
+    height: 50%;
+}
+
+/****************************** Contact Form **************************/
+
+.center-form {
+    margin: 0 auto;
+    max-width: 70%;
+    padding-bottom: 150px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: #e98074;
+    font-family: "Dosis", sans-serif;
+}
+
+.form-control {
+    margin: 5px 5px;
+}
+
+/********************* Footer ***************************/
+
+.footer-para {
+    font-family: "Dosis", sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    color: black;
+}
+
+.fas.fa-copyright {
+    color: black;
+    font-size: 12px;
+}
+
+.fab {
+    text-align: center;
+    padding: 5px;
+}
+
+.design {
+    font-size: 12px;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-para,
+    .design,
+    .site-title {
+        text-align: left;
+    }
+    .social-icons {
+        text-align: right;
+    }
+}
